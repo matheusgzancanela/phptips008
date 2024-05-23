@@ -1,0 +1,29 @@
+{
+  "name": "matheusgzancanela/phptips008",
+  "description": "GERANDO MINIATURAS DE IMAGENS COM CROPPER | PHP TIPS #008",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matheus G. Zancanela",
+      "email": "matheusgzpessoal@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/matheusgzancanela"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/cropper": "1.2.0",
+    "fzaninotto/faker": "1.8.0"
+  }
+}
